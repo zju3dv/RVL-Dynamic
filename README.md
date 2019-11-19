@@ -6,5 +6,18 @@
 ## License
 Licensed under the CC BY-NC-SA 4.0 license, see [LICENSE](LICENSE.md). 
 
+## Citation
+If you find this code useful for your research, please cite our paper
+
+```
+@inproceedings{huang2019prior,
+  title={Prior Guided Dropout for Robust Visual Localization in Dynamic Environments},
+  author={Huang, Zhaoyang and Xu, Yan and Shi, Jianping and Zhou, Xiaowei and Bao, Hujun and Zhang, Guofeng},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={2791--2800},
+  year={2019}
+}
+```
+
 ## Acknowledgements
 Our code partially builds on [geomapnet](https://github.com/NVlabs/geomapnet).
