@@ -1,0 +1,1 @@
+/mnt/lustre/huangzhaoyang/anaconda3/envs/SenseLocNet/bin/python /mnt/lustre/huangzhaoyang/Code/MapNet/experiments/train.py --model=posenet --sampling_threshold=0.2 --devices="4, 5, 6, 7" 2>&1|tee log/train-$now.log &

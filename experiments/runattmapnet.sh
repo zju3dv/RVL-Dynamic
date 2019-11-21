@@ -1,0 +1,1 @@
+/home/huangzhaoyang/anaconda3/envs/senselocnet/bin/python /home/huangzhaoyang/code/PGD-MapNet/experiments/train.py --model=attentionmapnet --mask_sampling --sampling_threshold=0.2 --devices="4, 5, 6, 7" 2>&1 &
