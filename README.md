@@ -18,6 +18,23 @@ If you find this code useful for your research, please cite our paper
   year={2019}
 }
 ```
+## Environment
+PGD-MapNet uses Conda to setup the environment
+```
+conda env create -f environment.yml
+conda activate pgd-mapnet
+```
+## Running
+### Training
+```
+cd experiments
+bash runattmapnet.sh
+```
+### Evaluation
+```
+cp logs/exp_beta[-3.0]gamma[-3.0]batch_size[64]model[attentionmapnet]mask_sampling[True]sampling_threshold[0.2]color_jitter[0.0]uniform_sampling[False]mask_image[False]dataset[RobotCar]scene[full]/config.json admapfull.json
+bash run_eval.sh
+```
 
 ## Acknowledgements
 Our code partially builds on [geomapnet](https://github.com/NVlabs/geomapnet).
