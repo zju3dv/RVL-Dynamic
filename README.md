@@ -24,6 +24,9 @@ PGD-MapNet uses Conda to setup the environment
 conda env create -f environment.yml
 conda activate pgd-mapnet
 ```
+The data is processed as suggested in geomapnet.
+The dynamic information computed from Mask_RCNN is stored in `datainfo`.
+The files should be put into the corresponding root dir of each scene.
 ## Running
 ### Training
 ```
