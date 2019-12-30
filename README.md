@@ -40,3 +40,5 @@ bash run_eval.sh
 
 ## Acknowledgements
 Our code partially builds on [geomapnet](https://github.com/NVlabs/geomapnet).
+
+The work is affliated with ZJU-SenseTime Joint Lab of 3D Vision, and its intellectual property belongs to SenseTime Group Ltd.
