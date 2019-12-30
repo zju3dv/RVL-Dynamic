@@ -1,3 +1,7 @@
+"""
+Copyright SenseTime.  All rights reserved.
+Licensed under the CC BY-NC-SA 4.0 license (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
+"""
 from common.pose_utils import optimize_poses, quaternion_angular_error, qexp, calc_vos_safe_fc, calc_vos_safe
 from common.utils import load_state_dict
 from torch.autograd import Variable
