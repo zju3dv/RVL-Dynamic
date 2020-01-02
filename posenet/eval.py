@@ -1,3 +1,7 @@
+"""
+Copyright SenseTime.  All rights reserved.
+Licensed under the CC BY-NC-SA 4.0 license (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
+"""
 from PoseNet import PoseNet
 from config import PoseNetTestConfig
 from common.evaluator import Evaluator

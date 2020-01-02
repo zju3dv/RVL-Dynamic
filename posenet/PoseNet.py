@@ -1,3 +1,7 @@
+"""
+Copyright SenseTime.  All rights reserved.
+Licensed under the CC BY-NC-SA 4.0 license (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
+"""
 import sys
 # sys.path.insert(0, '../')
 import torch
